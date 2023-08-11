@@ -1,10 +1,9 @@
-# macOS/iOS Security framework for Rust
+# Apple Security Framework in Rust
+[![Latest Version](https://img.shields.io/crates/v/security-framework.svg)](https://lib.rs/crates/apple_security)
+[![Rust](https://github.com/emanuele-em/apple-security/actions/workflows/rust.yml/badge.svg?branch=main)](https://github.com/emanuele-em/apple-security/actions/workflows/rust.yml)
+[![docs.rs](https://img.shields.io/docsrs/apple-security)](https://micheletti.io/apple-security/doc/security_framework/)
 
 Originally forked from [kornelski/rust-security-framework](https://github.com/kornelski/rust-security-framework)
-
-[![Latest Version](https://img.shields.io/crates/v/security-framework.svg)](https://lib.rs/crates/apple_security)
-
-[Documentation](https://docs.rs/apple_security)
 
 Rust integration for Apple's Security Framework.
 
