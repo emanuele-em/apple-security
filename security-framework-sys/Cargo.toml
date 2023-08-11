@@ -1,11 +1,11 @@
 [package]
-name = "security-framework-sys"
-version = "2.9.1"
-authors = ["Steven Fackler <sfackler@gmail.com>", "Kornel <kornel@geekhood.net>"]
+name = "apple-security-sys"
+version = "2.9.2"
+authors = ["Steven Fackler <sfackler@gmail.com>", "Kornel <kornel@geekhood.net>", "Emanuele Micheletti micheletti.emanuele@hotmail.com"]
 license = "MIT OR Apache-2.0"
-description = "Apple `Security.framework` low-level FFI bindings"
-repository = "https://github.com/kornelski/rust-security-framework"
-homepage = "https://lib.rs/crates/security-framework-sys"
+description = "Apple Security Framework low-level FFI bindings"
+repository = "https://github.com/emanuele-em/rust-security-framework"
+homepage = "https://lib.rs/crates/apple-security-sys"
 readme = "README.md"
 keywords = ["ffi", "iOS", "TLS", "SSL", "crypto"]
 categories = ["os::macos-apis", "external-ffi-bindings"]
