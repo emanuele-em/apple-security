@@ -1,10 +1,10 @@
 [package]
 name = "apple-security-sys"
-version = "2.9.3"
+version = "2.9.4"
 authors = ["Steven Fackler <sfackler@gmail.com>", "Kornel <kornel@geekhood.net>", "Emanuele Micheletti <micheletti.emanuele@hotmail.com>"]
 license = "MIT OR Apache-2.0"
 description = "Apple Security Framework low-level FFI bindings"
-repository = "https://github.com/emanuele-em/rust-security-framework"
+repository = "https://github.com/emanuele-em/apple-security"
 homepage = "https://lib.rs/crates/apple-security-sys"
 readme = "README.md"
 keywords = ["ffi", "iOS", "TLS", "SSL", "crypto"]

@@ -1,10 +1,10 @@
 [package]
 name = "apple-security"
-version = "2.9.3"
+version = "2.9.4"
 authors = ["Steven Fackler <sfackler@gmail.com>", "Kornel <kornel@geekhood.net>", "Emanuele Micheletti <micheletti.emanuele@hotmail.com>"]
 license = "MIT OR Apache-2.0"
 description = "Apple Security Framework bindings for macOS and iOS"
-repository = "https://github.com/emanuele-em/rust-security-framework"
+repository = "https://github.com/emanuele-em/apple-security"
 documentation = "https://docs.rs/apple_security"
 homepage = "https://lib.rs/crates/apple_security"
 categories = ["os::macos-apis", "cryptography", "api-bindings"]
