@@ -51,7 +51,7 @@ jobs:
           target: aarch64-apple-ios
 
       - name: Run check
-        run: cargo check --all-features -p security-framework --target aarch64-apple-ios
+        run: cargo check --all-features -p apple-security --target aarch64-apple-ios
 
   apple-silicon:
     name: Apple Silicon compile-check
@@ -66,7 +66,7 @@ jobs:
           toolchain: stable
           target: aarch64-apple-darwin
       - name: Run check
-        run: cargo check --all-features -p security-framework --target aarch64-apple-darwin
+        run: cargo check --all-features -p apple-security --target aarch64-apple-darwin
 
   lints:
     name: Lints
