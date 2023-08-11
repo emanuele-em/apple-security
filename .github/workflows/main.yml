@@ -39,7 +39,7 @@ jobs:
 
   ios:
     name: iOS compile-check
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
     steps:
       - name: Checkout sources
         uses: actions/checkout@v2
@@ -55,7 +55,7 @@ jobs:
 
   apple-silicon:
     name: Apple Silicon compile-check
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
     steps:
       - name: Checkout sources
         uses: actions/checkout@v2
