@@ -6,7 +6,7 @@ Originally forked from [kornelski/rust-security-framework](https://github.com/ko
 
 [Documentation](https://docs.rs/apple_security)
 
-Bindings to the Apple's `Security.framework`. Allows use of TLS and Keychain from Rust.
+Rust integration for Apple's Security Framework.
 
 ## License
 
