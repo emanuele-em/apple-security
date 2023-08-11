@@ -12,11 +12,11 @@
 
 use core_foundation::base::TCFType;
 use core_foundation::string::CFString;
-use security_framework::item::{ItemClass, ItemSearchOptions, Limit, SearchResult};
+use apple_security::item::{ItemClass, ItemSearchOptions, Limit, SearchResult};
 #[cfg(target_os = "macos")]
-use security_framework::os::macos::keychain::SecKeychain;
-use security_framework::passwords::{delete_generic_password, set_generic_password};
-use security_framework_sys::item::{kSecAttrAccount, kSecAttrService};
+use apple_security::os::macos::keychain::SecKeychain;
+use apple_security::passwords::{delete_generic_password, set_generic_password};
+use apple_security_sys::item::{kSecAttrAccount, kSecAttrService};
 use serial_test::serial;
 
 #[test]

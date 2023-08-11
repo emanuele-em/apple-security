@@ -1,7 +1,7 @@
 [workspace]
 members = [
-    "security-framework-sys",
-    "security-framework",
+    "apple-security-sys",
+    "apple-security",
     "iostest",
     "systest"
 ]

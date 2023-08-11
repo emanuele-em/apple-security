@@ -1,24 +1,24 @@
 [package]
 name = "systest"
 version = "0.1.0"
-authors = ["Steven Fackler <sfackler@palantir.com>"]
+authors = ["Steven Fackler <sfackler@palantir.com>", "Emanuele Micheletti <micheletti.emanuele@hotmail.com>"]
 edition = "2018"
 publish = false
 
 [dependencies]
 core-foundation-sys = "0.8.3"
-security-framework-sys = { path = "../security-framework-sys" }
+apple-security-sys = { path = "../apple-security-sys" }
 libc = "0.2.139"
 
 [build-dependencies]
 ctest = "0.2.22"
 
 [features]
-OSX_10_9 = ["security-framework-sys/OSX_10_9"]
-OSX_10_10 = ["OSX_10_9", "security-framework-sys/OSX_10_10"]
-OSX_10_11 = ["OSX_10_10", "security-framework-sys/OSX_10_11"]
-OSX_10_12 = ["OSX_10_11", "security-framework-sys/OSX_10_12"]
-OSX_10_13 = ["OSX_10_12", "security-framework-sys/OSX_10_13"]
+OSX_10_9 = ["apple-security-sys/OSX_10_9"]
+OSX_10_10 = ["OSX_10_9", "apple-security-sys/OSX_10_10"]
+OSX_10_11 = ["OSX_10_10", "apple-security-sys/OSX_10_11"]
+OSX_10_12 = ["OSX_10_11", "apple-security-sys/OSX_10_12"]
+OSX_10_13 = ["OSX_10_12", "apple-security-sys/OSX_10_13"]
 
 [package.metadata.release]
 release = false

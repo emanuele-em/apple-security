@@ -42,5 +42,5 @@ fn main() {
         .type_name(|name, _, _| name.to_string())
         .skip_signededness(|s| s.ends_with("Ref") || s.ends_with("Func"))
         .skip_fn(|s| s == "SecRandomCopyBytes") // varies between macOS versions
-        .generate("../security-framework-sys/src/lib.rs", "all.rs");
+        .generate("../apple-security-sys/src/lib.rs", "all.rs");
 }
