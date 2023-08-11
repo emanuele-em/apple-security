@@ -1,7 +1,7 @@
 [package]
 name = "apple-security-sys"
 version = "2.9.2"
-authors = ["Steven Fackler <sfackler@gmail.com>", "Kornel <kornel@geekhood.net>", "Emanuele Micheletti micheletti.emanuele@hotmail.com"]
+authors = ["Steven Fackler <sfackler@gmail.com>", "Kornel <kornel@geekhood.net>", "Emanuele Micheletti <micheletti.emanuele@hotmail.com">]
 license = "MIT OR Apache-2.0"
 description = "Apple Security Framework low-level FFI bindings"
 repository = "https://github.com/emanuele-em/rust-security-framework"
