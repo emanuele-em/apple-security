@@ -1,5 +1,7 @@
 # macOS/iOS Security framework for Rust
 
+originally forked from [kornelski/rust-security-framework](https://github.com/kornelski/rust-security-framework)
+
 [![Latest Version](https://img.shields.io/crates/v/security-framework.svg)](https://lib.rs/crates/security-framework)
 
 [Documentation](https://docs.rs/security-framework)
